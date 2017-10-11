@@ -26,7 +26,6 @@ import com.ysu.util.Json;
 //@Service
 @Controller
 @RequestMapping("/user/")
-//会话范围，窗口在值一直存在 有时间
 @SessionAttributes(value="username")
 public class UserController {
 	
